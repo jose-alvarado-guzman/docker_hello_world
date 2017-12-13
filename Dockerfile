@@ -8,4 +8,4 @@ EXPOSE 7777
 
 RUN pip install -r /app/requirements.txt
 
-CMD ["python", "/app/docker_hello_world.py"]
+CMD ["python", "/app/hello_world.py"]
